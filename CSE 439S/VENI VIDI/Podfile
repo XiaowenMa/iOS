@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'VENI VIDI' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for VENI VIDI
+pod 'DCFrame', :git => 'https://github.com/AsterW/DCFrame.git'
+pod 'Cosmos'
+pod 'SnapKit'
+pod 'SwiftFormat/CLI'
+
+  target 'VENI VIDITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'VENI VIDIUITests' do
+    # Pods for testing
+  end
+
+end
